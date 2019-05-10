@@ -1,11 +1,11 @@
-package Zoo;
+package ZooSolution;
 
-public class Lion {
+public class LionS {
     private int age;
     private int weight;
     private int toothCount;
 
-    public Lion(int age, int toothCount, int weight) {
+    public LionS(int age, int toothCount, int weight) {
         this.age = age;
         this.toothCount = toothCount;
         this.weight = weight;

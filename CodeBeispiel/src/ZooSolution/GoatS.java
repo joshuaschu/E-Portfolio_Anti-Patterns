@@ -1,13 +1,11 @@
-package Zoo;
+package ZooSolution;
 
-public class Lion {
+public class GoatS {
     private int age;
     private int weight;
-    private int toothCount;
 
-    public Lion(int age, int toothCount, int weight) {
+    public GoatS(int age, int weight) {
         this.age = age;
-        this.toothCount = toothCount;
         this.weight = weight;
     }
 
@@ -25,13 +23,5 @@ public class Lion {
 
     public void setWeight(int weight) {
         this.weight = weight;
-    }
-
-    public int getToothCount() {
-        return toothCount;
-    }
-
-    public void setToothCount(int toothCount) {
-        this.toothCount = toothCount;
     }
 }
